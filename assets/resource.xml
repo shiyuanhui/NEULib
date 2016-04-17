@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <resources> 
+	 <book>
+	       <id>00001</id>
+		   <name>Head First JAVA</name>
+		   <isower>true</isower>
+	</book>
+	 <book>
+	       <id>00002</id>
+		   <name>Head First HTML</name>
+		   <isower>true</isower>
+	</book>
+	</resources>

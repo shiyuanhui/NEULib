@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/login_background"
+    >
+    
+      <TextView 
+        android:id="@+id/aboutme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="关于作者：NEU  shiyuanhui"
+        android:textColor="#ffffff"/>
+      <TextView 
+        android:id="@+id/aboutme2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutme"
+        android:layout_marginLeft="20dp"
+        android:text="欢迎访问Github：https://github.com/shiyuanhui" 
+        android:textColor="#ffffff"/>
+      <TextView 
+        android:id="@+id/e_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutme2"
+        android:layout_marginLeft="20dp"
+        android:text="有任何问题与建议都可以发送邮件给我：yuanhui16@126.com" 
+        android:textColor="#ffffff"/>
+      
+    
+
+</RelativeLayout>

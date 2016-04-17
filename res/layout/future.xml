@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+    <TextView 
+        android:id="@+id/warning"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="本功能暂未开放"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#99ccff"/>
+    <TextView 
+        android:id="@+id/function"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="未来将会实现利用RFID读卡器通过RSSI技术对书本在书架的位置进行定位，然后由后台生成每本书在图书馆中的位置地图，让读者能够通过手机输入书名即可获知书本位置，并导航向此书"
+        android:layout_below="@id/warning"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#ff0033"/>
+    <TextView 
+        android:id="@+id/wish"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="敬请期待~"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_below="@id/function"
+        android:gravity="center"
+        android:textColor="#669933"/>
+
+</RelativeLayout>
